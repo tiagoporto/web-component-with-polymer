@@ -1,0 +1,18 @@
+:host-context(.hot-btn-group) {
+  background: red !important;
+  font-size: 40px;
+}
+
+::slotted(.hot-btn){
+  background: red !important;
+  font-size: 40px;
+}
+
+
+::slotted(::content .hot-btn) {
+  background: red !important;
+}
+
+hot-button .hot-btn {
+  background: red !important;
+}

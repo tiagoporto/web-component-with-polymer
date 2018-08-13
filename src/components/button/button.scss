@@ -1,0 +1,12 @@
+:host {
+  display: inline-block;
+}
+
+.hot-btn {
+  width: 100%;
+  height: 100%;
+}
+
+// :host-context(.hot-btn-group) {
+//   @extend .hot-btn-group;
+// }
